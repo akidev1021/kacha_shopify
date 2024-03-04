@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans JP', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainvisual {
+  background-color: #121921;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header_bar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_nav {
+  width: 100%;
+  display: block;
+}
+
+.top_header,
+.nav_bar {
+  width: 100%;
+  height: auto;
+  padding: 8px 0;
+  border-bottom: solid #2929292e 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.active {
+  color: #E02222;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-md-1 {
+  width: 8.33%;
+}
+
+.col-md-2 {
+  width: 16.67%;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-4 {
+  width: 33.32%;
+}
+
+.col-md-5 {
+  width: 41.65%;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-7 {
+  width: 58.3%;
+}
+
+.col-md-8 {
+  width: 66.64%;
+}
+
+.col-md-9 {
+  width: 75%;
+}
+
+.col-md-10 {
+  width: 83.3%;
+}
+
+.col-md-11 {
+  width: 91.63%;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+.unsetstyle {
+  text-decoration: none;
+  list-style: none;
+}
+
+.inline_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pull_right {
+  float: right;
+}
+
+.pull_left {
+  float: left;
+}
+
+.width_5 {
+  width: 50%;
+}
+
+.padding_1 {
+  padding: 10px;
+}
+
+.money_unit a {
+  margin: 5px;
+}
+
+.langs_block {
+  margin-left: 10px;
+}
+
+select {
+  border: solid 0.5px #2929292e;
+  width: 60px;
+}
+
+.shop_info_bar li,
+.nav_menu li, .additional_nav li {
+  border-right: solid 0.5px #2929292e;
+  padding: 0 8px;
+}
+
+.shop_info_bar li:last-child,
+.nav_menu li:last-child,
+.additional_nav li:last-child {
+  border: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+.top-cart-info {
+  background: #f9f9f9;
+  color: #2929292e;
+  border: solid 1px #ececec;
+  border-radius: 16px !important;
+  float: left;
+  padding: 8px 39px 6px 13px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: solid 0.5px #2929292e;
+  padding:5px;
+  width:  250px;
+  outline: none;
+}
+
+input:focus {
+  border: solid 0.5px #2929292e;
+  padding:5px;
+  width:  250px;
+}
+
+.ico_bac {
+  position: absolute;
+  background: #e84d1c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+
+/* button style start */
+.submit_btn {
+  background: #e84d1c;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 3px 20px;
+  margin-left: -3px;
+}
+
+.primary_btn {
+  background: #E02222;
+  border: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 3px 20px;
+  margin-left: -3px;
+}
+/* button style end */
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.content h2{
+  padding: 0 10px;
+  border-bottom: solid #5e5c5c3d 0.5px;
+  width: 100%;
+}
+
+.recom_product {
+  margin-bottom: 40px;
+}
+
+/* owl_carousel start */
+#owl-demo .item {
+  background: #cacac3a7;
+  padding: 5px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#owl-demo .item img {
+  width: 100%;
+}
+
+.customNavigation {
+  text-align: center;
+}
+
+.customNavigation a {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* owl_carousel end */
+
+.SMS_btn {
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+  bottom: 70px;
+}
+
+.SMS_btn div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e84d1c;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px ;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.SMS_btn div:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+.SMS_btn div img {
+  width: 100%;
+}
